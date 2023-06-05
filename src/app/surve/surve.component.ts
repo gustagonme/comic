@@ -27,6 +27,7 @@ export class SurveComponent {
     console.log(datos);
     
     this.service.save(datos);
-    //this.document.location.href = 'https://forms.gle/UwdFkvXuRLcJL9wg7';
+    this.document.location.href = 'https://forms.gle/UwdFkvXuRLcJL9wg7';
+    
   }
 }
